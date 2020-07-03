@@ -7,8 +7,10 @@ public class GitHello {
         System.out.println("hello git");
         System.out.println("hello git");
         System.out.println("hello git");
+        test();
     }
-    public static void test(){
+
+   private static void test() {
         for (int i = 0; i < 100; i++) {
             System.out.println("i = " + i);
         }
